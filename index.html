@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Mocha</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; color: #2e2e2e; background-color: #f4ede4; }
+        header { background: #855E42; padding: 20px; text-align: center; }
+        header img { height: 50px; }
+        nav a { color: #ffffff; text-decoration: none; margin: 0 15px; }
+        .hero { background-image: url('coffee-shop.jpg'); color: #f4ede4; height: 300px; display: flex; justify-content: center; align-items: center; background-size: cover; }
+        .menu, .about, .contact { padding: 20px; text-align: center; }
+        .menu-item { margin: 20px; display: inline-block; }
+        .menu-item img { width: 150px; height: 100px; }
+        footer { background: #6D4C41; color: white; text-align: center; padding: 10px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Café Mocha Logo">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Welcome to Café Mocha</h1>
+</div>
+
+<div class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+        <img src="latte.jpg" alt="Latte">
+        <h3>Latte</h3>
+        <p>Rich espresso blended with steamed milk and a light foam</p>
+        <p>$3.99</p>
+    </div>
+    <!-- More menu items here -->
+</div>
+
+<div class="about" id="about">
+    <h2>About Us</h2>
+    <p>We're a local coffee shop dedicated to serving exceptional coffee and warm, welcoming experiences to all our guests. Our mission is to enrich people's lives, one cup at a time.</p>
+</div>
+
+<div class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2023 Café Mocha. Follow us on <a href="#" style="color: white;">Social Media</a>.</p>
+</footer>
+
+</body>
+</html>
